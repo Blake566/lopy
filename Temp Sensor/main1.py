@@ -37,8 +37,8 @@ lora = LoRa(mode=LoRa.LORAWAN, region=LoRa.AU915)
 
 # create an ABP authentication params
 dev_addr = struct.unpack(">l", binascii.unhexlify('260DDE73'))[0]
-nwk_swkey = binascii.unhexlify('80F1E82EC99D9BACAC5CB21FD62536BD')
-app_swkey = binascii.unhexlify('F6C8F3B390DB2E67023231A80DCE5061')
+nwk_swkey = binascii.unhexlify('****')
+app_swkey = binascii.unhexlify('****')
 
 # remove all the channels
 for i in range(0, 72):
